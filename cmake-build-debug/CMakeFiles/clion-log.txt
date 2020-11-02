@@ -1,0 +1,28 @@
+"D:\software\clion\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\lidan\CLionProjects\cudaSampler
+Found OpenMP!
+-- include LidanBase.cmake
+-- include LidanBuild.cmake
+-- ----------
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glad/   
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glad
+-- Add C:/Users/lidan/CLionProjects/cudaSampler/external/glad/include;
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glad/include/KHR/khrplatform.hC:/Users/lidan/CLionProjects/cudaSampler/external/glad/include/glad/glad.h
+-- Add C:/Users/lidan/CLionProjects/cudaSampler/external/glad/src
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glad/src/glad.cu
+-- ----------
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glfw/ TRUE glfw3 
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glfw
+-- Add C:/Users/lidan/CLionProjects/cudaSampler/external/glfw/include;
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glfw/include/GLFW/glfw3.hC:/Users/lidan/CLionProjects/cudaSampler/external/glfw/include/GLFW/glfw3native.h
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glfw
+-- include C:/Users/lidan/CLionProjects/cudaSampler/external/glfw/include/}
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glfw/lib-vc2019/glfw3
+-- link C:/Users/lidan/CLionProjects/cudaSampler/external/glfw/lib-vc2019/glfw3.dll
+-- cxxopts version 3.0.0
+--   shit ----C:/Users/lidan/CLionProjects/cudaSampler/external/glfw/include/GLFW/glfw3.h;C:/Users/lidan/CLionProjects/cudaSampler/external/glfw/include/GLFW/glfw3native.h
+-- Add C:/Users/lidan/CLionProjects/cudaSampler/common;
+-- C:/Users/lidan/CLionProjects/cudaSampler/common/book.cuhC:/Users/lidan/CLionProjects/cudaSampler/common/cpu_bitmap.cuhC:/Users/lidan/CLionProjects/cudaSampler/common/gl_helper.cuhC:/Users/lidan/CLionProjects/cudaSampler/common/glad.hC:/Users/lidan/CLionProjects/cudaSampler/common/khrplatform.hC:/Users/lidan/CLionProjects/cudaSampler/common/shader.h
+-- C:/Users/lidan/CLionProjects/cudaSampler/external/glad/include/KHR/khrplatform.hC:/Users/lidan/CLionProjects/cudaSampler/external/glad/include/glad/glad.hC:/Users/lidan/CLionProjects/cudaSampler/external/glad/src/glad.cu
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/lidan/CLionProjects/cudaSampler/cmake-build-debug

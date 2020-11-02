@@ -1,0 +1,28 @@
+//
+// Created by lidan on 2020/9/20.
+//
+
+#include "book.cuh"
+
+__device__ int addem(int a ,int b)
+{
+    return a + b ;
+}
+
+__global__ void add1(int a,int b,int *c)
+{
+    *c = addem(a,b) ;
+}
+
+
+int main(void)
+{
+    int c ;
+    int *dev_c ;
+    HANDLE_ERROR(cudaMalloc((void**)&dev_c,sizeof(int) ) ) ;
+    add1<<<1,1>>>(2,7,dev_c) ;
+    HANDLE_ERROR(cudaMemcpy(&c,dev_c,sizeof(int),cudaMemcpyDeviceToHost)) ;
+    printf( "2 + 7 = %d\n", c );
+    HANDLE_ERROR( cudaFree( dev_c ) );
+    return 0;
+}
